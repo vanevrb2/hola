@@ -7,7 +7,7 @@ ruta
 <h2>{{ site.posts[0].title }}</h2>
 -
 {{ site.posts[0].image }}
-<img src="{{ site.posts[0].image }}" >
+<img src="{{ site.baseurl }}{{ site.posts[0].image }}" >
 -
 <div class="row">
                             <div class="col-12 col-md-6 col-xl-3 mb-4">
