@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-
+d
+{{ site.name }}
+d
 
 <h2>{{ site.data.samplelist.docs_list_title }}</h2>
 <ul>
