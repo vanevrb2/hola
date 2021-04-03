@@ -25,7 +25,6 @@ baseurl: "http://vanevrb2.github.io/hola"
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:title/
 
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
