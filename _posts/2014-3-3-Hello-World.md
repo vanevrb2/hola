@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You're up and running!
+image: {{ site.baseurl }}/assets/img/sliders/1.png
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
