@@ -7,7 +7,7 @@ ruta
 <h2>{{ site.posts[0].title }}</h2>
 -
 {{ site.posts[0].image }}
-
+-
 <img src="{{ site.baseurl }}/assets/img/sliders/{{ site.posts[0].image }}.png" >
 -
 <div class="row">
