@@ -6,6 +6,7 @@ layout: default
 ruta
 <h2>{{ site.posts[0].title }}</h2>
 -
+{{ site.posts[0].image }}
 <img src="{{ site.posts[0].image }}" >
 -
 <div class="row">
