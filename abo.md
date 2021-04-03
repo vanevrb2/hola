@@ -4,7 +4,7 @@ title: abo
 permalink: /abo/
 ---
 
-
+slide
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner ">
     
