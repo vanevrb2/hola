@@ -66,6 +66,13 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+s
+  {% for slider in site.sliders %}
+      <img src="{{ site.baseurl }}{{ slider.url }}" />
+  {{ site.baseurl }}{{ slider.url }}
+  {% endfor %}
+s
+
    <div id="main" role="main" class="container">
       {{ content }}
     </div>
