@@ -2,6 +2,8 @@
 layout: default
 ---
 
+
+ruta
 <div id="main" role="main" class="container">
 
 <div class="row">
