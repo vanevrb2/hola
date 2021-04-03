@@ -4,12 +4,12 @@ layout: default
 
 x
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner active">
+  <div class="carousel-inner ">
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myImage in image_files %}
 
 
-    <div class="carousel-item">
+    <div class="carousel-item active">
       <img src="{{ site.baseurl }}{{ myImage.path }}"  class="d-block w-100" alt="...">
     </div>
     {% endfor  %}
