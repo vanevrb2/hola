@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.sliders %}
-      <img src="{{ site.baseurl }}{{ post.url }}" />
+  {% for slider in site.sliders %}
+      <img src="{{ site.baseurl }}{{ slider.url }}" />
   {% endfor %}
 </div>
