@@ -77,7 +77,8 @@ ruta
                                 <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                             </h5>
                             {% if post.image %}
-  <div style="background-image: url({{ post.image }})">
+			    s
+  <img src="{{ post.image }}"/>
 	{% endif %}
 
 	<h1 class="headline">{{ post.title }}</h1>
