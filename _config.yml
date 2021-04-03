@@ -27,6 +27,11 @@ baseurl: "http://vanevrb2.github.io/hola"
 
 permalink: /:title/
 
+defaults:
+ - scope:
+     path: "assets/img"
+   values:
+     image: true
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
