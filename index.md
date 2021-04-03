@@ -5,17 +5,12 @@ layout: default
 
 ruta
 <h2>{{ site.posts[0].title }}</h2>
--
-{{ site.posts[0].image }}
--
-<img src="{{ site.baseurl }}/assets/img/sliders/{{ site.posts[0].image }}.png" >
--
 <div class="row">
                             <div class="col-12 col-md-6 col-xl-3 mb-4">
                                 <div class="card mr-3">
-                                    <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/posts/bootstrap-themes-summer-sale.jpg" class="card-img-top" alt="...">
+                                    <img src="{{ site.baseurl }}/assets/img/posts/{{ site.posts[0].image }}.png" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                      <h5 class="card-title">35% discount for premium Bootstrap Themes, Templates, UI Kits</h5>
+                                      <h5 class="card-title">{{ site.posts[0].title }}</h5>
                                       <p class="card-text">We’re getting nearer to the end of summer and because we know that this period can make a serious dent in your pocket..</p>
                                       <a href="#" class="btn btn-primary">Read more</a>
                                     </div>
