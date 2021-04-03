@@ -2,6 +2,7 @@
 layout: default
 ---
 
+x
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
 {% assign image_files = site.static_files | where: "image", true %}
