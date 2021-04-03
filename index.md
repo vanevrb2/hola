@@ -5,5 +5,6 @@ layout: default
 <div class="posts">
   {% for slider in site.sliders %}
       <img src="{{ site.baseurl }}{{ slider.url }}" />
+  {{ site.baseurl }}{{ slider.url }}
   {% endfor %}
 </div>
