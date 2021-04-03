@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<form class="search" action="/search">
+    <input type="text" placeholder="Search" name="q" value="{{ search.terms | escape }}"  />
+    <input type="submit" value="Search" />
+</form>
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
