@@ -1,1 +1,6 @@
-style.scss
+p.card-text {
+      width: 230px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
