@@ -77,10 +77,11 @@ ruta
                                 <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                             </h5>
                             {% if post.image %}
-  <div style="background-image: url({{ site.baseurl }}{{ post.image }})">
+  <div style="background-image: url({{ post.image }})">
+	{% endif %}
+
 	<h1 class="headline">{{ post.title }}</h1>
   </div>
-{% endif %}
                             <p class="card-text"> {{ post.excerpt }}</p>
                             <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Read More</a>
 
