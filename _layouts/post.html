@@ -1,8 +1,14 @@
 ---
-layout: layout
+layout: default
 ---
+  {% for post in site.posts %}
+<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 
-<h1>{{ page.title }}</h1>
+  {% endfor %}
+
+s
+<article class="post">
+d  <h1>{{ page.title }}</h1>
 
   <div class="entry">
     {{ content }}
@@ -13,4 +19,4 @@ layout: layout
   </div>
 
   {% include disqus.html %}
-
+</article>
