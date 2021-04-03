@@ -29,7 +29,7 @@ permalink: /:title/
 
 defaults:
  - scope:
-     path: "assets/img"
+     path: "assets/img/sliders"
    values:
      image: true
      
