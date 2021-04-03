@@ -6,17 +6,18 @@ layout: default
     <input type="text" placeholder="Search" name="q" value="{{ search.terms | escape }}"  />
     <input type="submit" value="Search" />
 </form>
-<div class="posts">
+
+<div class="row">
   {% for post in site.posts %}
-    <article class="post">
+    <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1></h5>
+        <p class="card-text"> {{ post.excerpt }}</p>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Read More</a>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+    </div>
+  </div>
   {% endfor %}
 </div>
