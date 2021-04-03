@@ -2,10 +2,7 @@
 layout: default
 ---
 
-<form class="search" action="/search">
-    <input type="text" placeholder="Search" name="q" value="{{ search.terms | escape }}"  />
-    <input type="submit" value="Search" />
-</form>
+<div id="main" role="main" class="container">
 
 <div class="row">
   {% for post in site.posts %}
@@ -20,4 +17,5 @@ layout: default
     </div>
   </div>
   {% endfor %}
+</div>
 </div>
