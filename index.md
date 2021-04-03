@@ -34,6 +34,7 @@ layout: default
    <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Read More</a>  </div>
 </div>
   </div>
+  </div>
     {% endfor %}
   {% for post in site.posts %}
     <div class="col-sm-12">
