@@ -9,7 +9,7 @@ layout: default
 
 <div class="row">
   {% for post in site.posts %}
-    <div class="col-sm-6">
+    <div class="col-sm-12">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title"><h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1></h5>
