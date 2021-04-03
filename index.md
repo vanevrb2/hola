@@ -4,6 +4,8 @@ layout: default
 
 
 ruta
+<h2>{{ site.posts[0].title }}</h2>
+<img src="{{ site.posts[0].image }}" >
 <div class="row">
                             <div class="col-12 col-md-6 col-xl-3 mb-4">
                                 <div class="card mr-3">
